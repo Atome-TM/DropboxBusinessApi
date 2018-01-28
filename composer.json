@@ -1,0 +1,22 @@
+{
+  "name": "atome/dropbox-business-api",
+  "description": "Dropbox api v2 for Business endpoints",
+  "authors": [
+    {
+      "name": "Thomas Moreira",
+      "email": "thomas@atome.info"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Atome\\": "src"
+    }
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "v2.4.0",
+    "digitalnature/php-ref": "^1.2"
+  }
+}
