@@ -28,7 +28,7 @@ trait RequestTrait
         $guzzle = new Client();
         $back   = $guzzle->send($request);
 
-        return (string)$back->getBody();
+        return json_decode((string)$back->getBody());
     }
 
     protected function post($endpoint, $parameters = [])
